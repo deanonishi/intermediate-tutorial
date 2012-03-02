@@ -7,5 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
+rs_utils_marker :begin
+
 log "Hello World! You should try Chef with RightScale!"
+
+rs_utils_marker :end
 
