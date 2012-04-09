@@ -5,6 +5,20 @@
   "name": "intermediate",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
+    "<intermediate>/first_name": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "YOUR NAME HERE",
+      "type": "hash",
+      "recipes": [
+        "<intermediate>::default"
+      ],
+      "display_name": "First Name",
+      "description": "Your given first name."
+    }
   },
   "license": "All rights reserved",
   "suggestions": {

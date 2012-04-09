@@ -9,3 +9,10 @@ depends "rs_utils"
 
 recipe "intermediate::default","Prints hello world output" 
 
+attribute "<intermediate>/first_name",
+  :display_name => "First Name",
+  :description => "Your given first name.",
+  :required => 'required',
+  :type => "hash",
+  :default => "YOUR NAME HERE",
+  :recipes => ["<intermediate>::default"]
