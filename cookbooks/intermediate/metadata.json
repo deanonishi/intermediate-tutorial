@@ -12,7 +12,7 @@
 
       ],
       "default": "YOUR NAME HERE",
-      "type": "hash",
+      "type": "string",
       "recipes": [
         "intermediate::my_first_recipe"
       ],

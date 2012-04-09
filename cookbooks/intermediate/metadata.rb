@@ -14,6 +14,5 @@ attribute "intermediate/first_name",
   :display_name => "First Name",
   :description => "Your given first name.",
   :required => 'required',
-  :type => "hash",
   :default => "YOUR NAME HERE",
   :recipes => ["intermediate::my_first_recipe"]
