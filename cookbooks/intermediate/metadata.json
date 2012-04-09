@@ -5,7 +5,7 @@
   "name": "intermediate",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
-    "<intermediate>/first_name": {
+    "intermediate/first_name": {
       "required": "required",
       "calculated": false,
       "choice": [
@@ -14,7 +14,7 @@
       "default": "YOUR NAME HERE",
       "type": "hash",
       "recipes": [
-        "<intermediate>::my_first_recipe"
+        "intermediate::my_first_recipe"
       ],
       "display_name": "First Name",
       "description": "Your given first name."
@@ -31,8 +31,8 @@
   "recommendations": {
   },
   "recipes": {
-    "intermediate::default": "Prints hello world output",
-    "intermediate::my_first_reipe": "Prints hello world output"
+    "intermediate::my_first_recipe": "Prints hello world output",
+    "intermediate::default": "Prints hello world output"
   },
   "groupings": {
   },
