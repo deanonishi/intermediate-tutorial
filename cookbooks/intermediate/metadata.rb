@@ -8,6 +8,7 @@ version          "0.0.1"
 depends "rs_utils"
 
 recipe "intermediate::default","Prints hello world output" 
+recipe "intermediate::my_first_reipe","Prints hello world output"
 
 attribute "<intermediate>/first_name",
   :display_name => "First Name",
@@ -15,4 +16,4 @@ attribute "<intermediate>/first_name",
   :required => 'required',
   :type => "hash",
   :default => "YOUR NAME HERE",
-  :recipes => ["<intermediate>::default"]
+  :recipes => ["<intermediate>::my_first_recipe"]

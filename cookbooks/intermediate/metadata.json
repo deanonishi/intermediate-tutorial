@@ -14,7 +14,7 @@
       "default": "YOUR NAME HERE",
       "type": "hash",
       "recipes": [
-        "<intermediate>::default"
+        "<intermediate>::my_first_recipe"
       ],
       "display_name": "First Name",
       "description": "Your given first name."
@@ -31,7 +31,8 @@
   "recommendations": {
   },
   "recipes": {
-    "intermediate::default": "Prints hello world output"
+    "intermediate::default": "Prints hello world output",
+    "intermediate::my_first_reipe": "Prints hello world output"
   },
   "groupings": {
   },
