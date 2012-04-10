@@ -9,10 +9,10 @@
 
 rs_utils_marker :begin
 
-bash "set_first_name" do
+bash "set_hostname" do
    flags "-ex"
    code <<-EOH
-      echo "Hello, my name is #{first_name}"
+      hostname #{first_name}"
    EOH
 end     
 
