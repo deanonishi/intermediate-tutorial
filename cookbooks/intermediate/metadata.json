@@ -30,7 +30,7 @@
   "recommendations": {
   },
   "recipes": {
-    "intermediate::my_first_recipe": "Prints hello world output",
+    "intermediate::my_first_recipe": "Prints first name as output",
     "intermediate::default": "Prints hello world output"
   },
   "groupings": {

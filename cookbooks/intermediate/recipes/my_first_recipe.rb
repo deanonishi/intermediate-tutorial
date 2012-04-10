@@ -10,10 +10,11 @@
 rs_utils_marker :begin
 
 bash "log_something" do
-      code <<-EOH
-        log "Hello my name is #{first_name}" 
-                    EOH
-                    end
+  flags "-ex"
+  code <<-EOH
+     log "Hello my name is #{first_name}" 
+   EOH
+end
 
 rs_utils_marker :end
 
