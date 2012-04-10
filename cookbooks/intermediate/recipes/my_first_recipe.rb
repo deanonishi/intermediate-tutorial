@@ -9,12 +9,7 @@
 
 rs_utils_marker :begin
 
-if node[:intermediate][:first_name]
-  Chef::Log.info "First name of user"
-    bash "Pass first name"
-        log "Hi, my name is ${node[:intermediate][:first_name]}"
-    end
-end
+log "Hello, my name is #{first_name}"
 
 rs_utils_marker :end
 
