@@ -9,12 +9,11 @@
 
 rs_utils_marker :begin
 
-bash "set_hostname" do
-   flags "-ex"
-   code <<-EOH
-      hostname #{first_name}"
-   EOH
-end     
+bash "log_something" do
+      code <<-EOH
+        log "Hello my name is #{first_name}" 
+                    EOH
+                    end
 
 rs_utils_marker :end
 
