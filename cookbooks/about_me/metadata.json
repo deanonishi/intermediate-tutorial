@@ -5,7 +5,7 @@
   "name": "about_me",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
-    "default/first_name": {
+    "about_me/first_name": {
       "required": "required",
       "calculated": false,
       "choice": [
@@ -13,7 +13,7 @@
       ],
       "type": "string",
       "recipes": [
-        "db_mysql::default"
+        "about_me::default"
       ],
       "display_name": "First Name",
       "description": "Provide your first name."

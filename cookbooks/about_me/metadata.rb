@@ -9,9 +9,9 @@ depends "rs_utils"
 
 recipe  "about_me::default", "Sets first name."
 
-attribute "default/first_name",
+attribute "about_me/first_name",
   :display_name => "First Name",
   :description => "Provide your first name.",
-  :recipes => ["db_mysql::default"],
+  :recipes => ["about_me::default"],
   :required => 'required'
 
