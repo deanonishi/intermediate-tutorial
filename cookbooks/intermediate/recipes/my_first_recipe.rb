@@ -9,12 +9,9 @@
 
 rs_utils_marker :begin
 
-bash "log_something" do
-  flags "-ex"
-  code <<-EOH
-     log "Hello my name is #{first_name}" 
-   EOH
-end
+first_name = node[:about_me][:first_name]
+
+log "Hi, my first name is, #{first_name}"
 
 rs_utils_marker :end
 
