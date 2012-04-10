@@ -12,7 +12,7 @@ rs_utils_marker :begin
 bash "set_first_name" do
    flags "-ex"
    code <<-EOH
-      log "Hello, my name is #{first_name}"
+      echo "Hello, my name is #{first_name}"
    EOH
 end     
 
