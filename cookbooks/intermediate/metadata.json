@@ -5,19 +5,6 @@
   "name": "intermediate",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
-    "intermediate/first_name": {
-      "required": "required",
-      "calculated": false,
-      "choice": [
-
-      ],
-      "type": "string",
-      "recipes": [
-        "intermediate::my_first_recipe"
-      ],
-      "display_name": "First Name",
-      "description": "Your given first name."
-    }
   },
   "license": "All rights reserved",
   "suggestions": {
@@ -30,7 +17,6 @@
   "recommendations": {
   },
   "recipes": {
-    "intermediate::my_first_recipe": "Prints first name as output",
     "intermediate::default": "Prints hello world output"
   },
   "groupings": {
