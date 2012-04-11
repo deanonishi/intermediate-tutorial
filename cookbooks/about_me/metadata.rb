@@ -9,10 +9,4 @@ depends "rs_utils"
 
 recipe "about_me::default","Prints my first name as output"
 
-attribute "about_me/first_name",
-   :display_name => "First Name", 
-   :description => "Provide your first name.",
-   :recipes => ["about_me::default"]
-
-
 
