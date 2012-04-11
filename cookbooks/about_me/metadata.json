@@ -5,6 +5,32 @@
   "name": "about_me",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
+    "about_me/temperature": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "hash",
+      "recipes": [
+        "about_me::my_city"
+      ],
+      "display_name": "Temperature",
+      "description": "Current temperature in the city"
+    },
+    "about_me/city_name": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "array",
+      "recipes": [
+        "about_me::my_city"
+      ],
+      "display_name": "City Name",
+      "description": "The city where I currently live."
+    }
   },
   "license": "All rights reserved",
   "suggestions": {
@@ -17,6 +43,7 @@
   "recommendations": {
   },
   "recipes": {
+    "about_me::my_city": "Information about my city",
     "about_me::default": "Prints my first name as output"
   },
   "groupings": {
