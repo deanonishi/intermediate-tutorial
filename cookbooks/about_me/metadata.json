@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "rs_utils": ">= 0.0.0"
+  },
+  "name": "about_me",
+  "maintainer_email": "YOUR_EMAIL",
+  "attributes": {
+    "about_me/first_name": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "about_me::default"
+      ],
+      "display_name": "First Name",
+      "description": "Provide your first name."
+    }
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "about_me::default": "Prints my first name as output"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures about_me",
+  "providing": {
+  }
+}
