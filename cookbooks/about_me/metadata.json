@@ -15,8 +15,8 @@
       "recipes": [
         "about_me::my_city"
       ],
-      "display_name": "Temperature",
-      "description": "Current temperature in the city"
+      "description": "Current temperature in the city",
+      "display_name": "Temperature"
     },
     "about_me/rain": {
       "required": "recommended",
@@ -30,8 +30,8 @@
       "recipes": [
         "about_me::my_city"
       ],
-      "display_name": "Raining",
-      "description": "Is it raining? Yes or No"
+      "description": "Is it raining? Yes or No",
+      "display_name": "Raining"
     },
     "about_me/city_name": {
       "required": "required",
@@ -43,8 +43,8 @@
       "recipes": [
         "about_me::my_city"
       ],
-      "display_name": "City Name",
-      "description": "The city where I currently live"
+      "description": "The city where I currently live",
+      "display_name": "City Name"
     }
   },
   "license": "All rights reserved",
@@ -59,7 +59,7 @@
   },
   "recipes": {
     "about_me::my_city": "Information about my city",
-    "about_me::default": "Prints my first name and favorite food as output"
+    "about_me::default": "Prints my first name and several of my favorite things as output."
   },
   "groupings": {
   },

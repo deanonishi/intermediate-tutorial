@@ -7,7 +7,7 @@ version          "0.0.1"
 
 depends "rs_utils"
 
-recipe "about_me::default","Prints my first name and favorite food as output"
+recipe "about_me::default","Prints my first name and several of my favorite things as output."
 recipe "about_me::my_city","Information about my city"
 
 # Required #

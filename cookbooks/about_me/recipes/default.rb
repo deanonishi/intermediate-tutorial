@@ -10,9 +10,12 @@
 rs_utils_marker :begin
 
   first_name = node[:about_me][:first_name]
-  favorite_food = node[:about_me][:favorite_food]
+  favorite_food = node[:about_me][:favorite][:food]
+  favorite_drink = node[:about_me][:favorite][:drink]
+  favorite_hobby = node[:about_me][:favorite][:hobby]
+          
+  log "Hi, my name is #{first_name} and I like #{favorite_food}, #{favorite_drink} and #{favorite_hobby}."
+  log.info node[:about_me].inspect
 
-  log "Hi, my first name is, #{first_name} and my favorite food is #{favorite_food}."
-      
 rs_utils_marker :end
 
