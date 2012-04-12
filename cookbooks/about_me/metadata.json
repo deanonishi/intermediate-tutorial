@@ -11,7 +11,7 @@
       "choice": [
 
       ],
-      "type": "hash",
+      "type": "string",
       "recipes": [
         "about_me::my_city"
       ],
@@ -24,12 +24,12 @@
       "choice": [
 
       ],
-      "type": "array",
+      "type": "string",
       "recipes": [
         "about_me::my_city"
       ],
       "display_name": "City Name",
-      "description": "The city where I currently live."
+      "description": "The city where I currently live"
     }
   },
   "license": "All rights reserved",
