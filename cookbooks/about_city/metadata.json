@@ -1,0 +1,72 @@
+{
+  "dependencies": {
+    "rs_utils": ">= 0.0.0"
+  },
+  "name": "about_city",
+  "maintainer_email": "YOUR_EMAIL",
+  "attributes": {
+    "about_city/temp": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "display_name": "Temperature",
+      "description": "Current temperature in the city"
+    },
+    "about_city/city_name": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "display_name": "City Name",
+      "description": "The city where I currently live."
+    },
+    "about_city/rain": {
+      "required": "recommended",
+      "calculated": false,
+      "choice": [
+        "yes",
+        "no"
+      ],
+      "default": "no",
+      "type": "string",
+      "recipes": [
+        "about_city::my_city"
+      ],
+      "display_name": "Raining",
+      "description": "Is it raining? Yes or No"
+    }
+  },
+  "license": "All rights reserved",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "version": "0.0.1",
+  "recommendations": {
+  },
+  "recipes": {
+    "about_city::my_city": "Information about my city"
+  },
+  "groupings": {
+  },
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "description": "Installs/Configures about_city",
+  "providing": {
+  }
+}
