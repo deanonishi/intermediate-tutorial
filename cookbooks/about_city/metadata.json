@@ -5,7 +5,7 @@
   "name": "about_city",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
-    "about_city/temp": {
+    "about_city/temperature": {
       "required": "optional",
       "calculated": false,
       "choice": [

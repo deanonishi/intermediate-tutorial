@@ -26,7 +26,7 @@ attribute "about_city/rain",
    :recipes => ["about_city::my_city"]                                       
                     
 # Optional Input #
-attribute "about_city/temp",
+attribute "about_city/temperature",
    :display_name => "Temperature",
    :description => "Current temperature in the city",
    :required => "optional",
