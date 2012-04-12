@@ -18,6 +18,21 @@
       "display_name": "Temperature",
       "description": "Current temperature in the city"
     },
+    "about_me/rain": {
+      "required": "recommended",
+      "calculated": false,
+      "choice": [
+        "yes",
+        "no"
+      ],
+      "default": "no",
+      "type": "string",
+      "recipes": [
+        "about_me::my_city"
+      ],
+      "display_name": "Raining",
+      "description": "Is it raining? Yes or No"
+    },
     "about_me/city_name": {
       "required": "required",
       "calculated": false,
@@ -44,7 +59,7 @@
   },
   "recipes": {
     "about_me::my_city": "Information about my city",
-    "about_me::default": "Prints my first name as output"
+    "about_me::default": "Prints my first name and favorite food as output"
   },
   "groupings": {
   },
