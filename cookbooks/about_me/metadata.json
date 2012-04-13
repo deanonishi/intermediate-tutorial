@@ -5,35 +5,7 @@
   "name": "about_me",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
-    "about_me/temperature": {
-      "required": "optional",
-      "calculated": false,
-      "choice": [
-
-      ],
-      "type": "string",
-      "recipes": [
-        "about_me::my_city"
-      ],
-      "description": "Current temperature in the city",
-      "display_name": "Temperature"
-    },
-    "about_me/rain": {
-      "required": "recommended",
-      "calculated": false,
-      "choice": [
-        "yes",
-        "no"
-      ],
-      "default": "no",
-      "type": "string",
-      "recipes": [
-        "about_me::my_city"
-      ],
-      "description": "Is it raining? Yes or No",
-      "display_name": "Raining"
-    },
-    "about_me/city_name": {
+    "about_me/default": {
       "required": "required",
       "calculated": false,
       "choice": [
@@ -41,10 +13,10 @@
       ],
       "type": "string",
       "recipes": [
-        "about_me::my_city"
+        "about_me::default"
       ],
-      "description": "The city where I currently live",
-      "display_name": "City Name"
+      "description": "My favorite hobby.",
+      "display_name": "Hobby"
     }
   },
   "license": "All rights reserved",
@@ -58,7 +30,6 @@
   "recommendations": {
   },
   "recipes": {
-    "about_me::my_city": "Information about my city",
     "about_me::default": "Prints my first name and several of my favorite things as output."
   },
   "groupings": {

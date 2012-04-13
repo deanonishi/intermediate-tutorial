@@ -15,7 +15,6 @@ rs_utils_marker :begin
   favorite_hobby = node[:about_me][:favorite][:hobby]
           
   log "Hi, my name is #{first_name} and I like #{favorite_food}, #{favorite_drink} and #{favorite_hobby}."
-  log.info node[:about_me].inspect
 
 rs_utils_marker :end
 
