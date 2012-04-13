@@ -5,7 +5,7 @@
   "name": "about_me",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
-    "about_me/default": {
+    "about_me/hobby": {
       "required": "required",
       "calculated": false,
       "choice": [
